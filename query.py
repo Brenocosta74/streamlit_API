@@ -6,10 +6,10 @@ import pandas as pd
 def conexao(query):
     
     conn = mysql.connector.connect(
-        hots="127.0.0.1",
+        host="127.0.0.1",
         port="3306",
         user="root",
-        passoword="Senai@134",
+        password="Senai@134",
         db="db_carro"
     )
 
